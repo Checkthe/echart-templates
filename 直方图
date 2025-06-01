@@ -1,0 +1,35 @@
+option = {
+  title: {
+    text: 'Experiment Reuslt'
+  },
+  xAxis: {
+    type: 'category',
+    data: ['实验1', '实验2']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  legend: {
+    data: ['非成瘾', '成瘾']
+  },
+  series: [
+    {
+      name:'非成瘾',
+      data: [0.88,0.84],
+      label:{
+        show:true,
+        position:'top'
+      },
+      type: 'bar'
+    },
+    {
+      name:'成瘾',
+      data:[0.93,0.95],
+      label:{
+        show:true,
+        position:'top'
+      },
+      type:'bar'
+    }
+  ]
+};
